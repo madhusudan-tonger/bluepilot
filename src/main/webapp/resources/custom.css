@@ -1,0 +1,99 @@
+header{
+    background: linear-gradient(to right, rgba(5, 85, 206, 0.2),rgba(0, 0, 0, 0.2)) , url("banner.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+nav a{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+nav>div>span>a{
+    font-weight: bold;
+}
+nav>div>span>a:hover{
+    color: rgb(226, 226, 226);
+}
+
+.c-logo img{
+    height: 30px;
+}
+.c-logo span{
+    font-family: sans-serif;
+    color: rgb(6, 81, 151);
+    text-decoration: none;
+}
+.c-heading p{
+    width: 300px;
+    font-size: 80%;
+    margin: 20px 0;
+}
+.c-heading button{
+    background-color: yellow;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    font-size: 80%;
+    font-weight: bold;
+}
+.c-inline>div{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 -3px;
+    background-color: white;
+    color: black;
+}
+.c-inline>div>img{
+    height: 140px;
+}
+.c-inline>div>p{
+    padding-top: 10px;
+}
+.c-gallery img{
+    width: 200px;
+    margin: -3px;
+    transition: .5s;
+}
+.c-gallery img:hover{
+    transform: scale(1.2);
+}
+.carousel-indicators li{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+.c-card{
+    background-color: rgb(41, 41, 41);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+.c-card img{
+    width: 150px;
+    border-radius: 50%;
+}
+iframe{
+    width: 100%;
+}
+#c-footer-logo{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#c-social a{
+    color: white;
+    margin: 5px 8px;
+}
+#c-social a:hover{
+    text-decoration: none;
+    color: rgb(6, 81, 151);
+}
+#c-top-button{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
